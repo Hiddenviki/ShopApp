@@ -1,0 +1,39 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+            display: inline-block; /* inline-block, чтобы элементы были в одной линии */
+            width: calc(25% - 20px); /* Ширина каждого продукта - 25% от контейнера минус отступы */
+            margin-right: 20px; /* Отступ между продуктами */
+            vertical-align: top; /* Выравниваем по верхнему краю */
+        }
+        .product img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .product-info {
+            margin-top: 10px; /* Отступ между названием и ценой */
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
